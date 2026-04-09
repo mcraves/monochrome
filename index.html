@@ -1075,12 +1075,6 @@
                                 </div>
                                 <div class="card-grid" id="home-recent-mixed"></div>
                             </section>
-                            <section class="content-section" id="home-editors-picks-section">
-                                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem">
-                                    <h2 class="section-title" style="margin-bottom: 0">Editor's Picks</h2>
-                                </div>
-                                <div class="card-grid" id="home-editors-picks"></div>
-                            </section>
                         </div>
                     </div>
                     <div id="home-view-explore" class="home-view" style="display: none">
@@ -1657,23 +1651,52 @@
 
                     <!-- Interface tab (unchanged except removed unreleased/donate/parties sidebar toggles) -->
                     <div class="settings-tab-content" id="settings-tab-interface">
-                        <div class="settings-list">
-                            <div class="settings-group">
-                                <div class="setting-item"><div class="info"><span class="label">Show Recommended Songs</span><span class="description">Display recommended songs on the home page</span></div><label class="toggle-switch"><input type="checkbox" id="show-recommended-songs-toggle" checked /><span class="slider"></span></label></div>
-                                <div class="setting-item"><div class="info"><span class="label">Show Recommended Albums</span><span class="description">Display recommended albums on the home page</span></div><label class="toggle-switch"><input type="checkbox" id="show-recommended-albums-toggle" checked /><span class="slider"></span></label></div>
-                                <div class="setting-item"><div class="info"><span class="label">Show Recommended Artists</span><span class="description">Display recommended artists on the home page</span></div><label class="toggle-switch"><input type="checkbox" id="show-recommended-artists-toggle" checked /><span class="slider"></span></label></div>
-                                <div class="setting-item"><div class="info"><span class="label">Show Jump Back In</span><span class="description">Display recent albums, playlists, and mixes on the home page</span></div><label class="toggle-switch"><input type="checkbox" id="show-jump-back-in-toggle" checked /><span class="slider"></span></label></div>
-                                <div class="setting-item"><div class="info"><span class="label">Show Editor's Picks</span><span class="description">Display curated album selections on the home page</span></div><label class="toggle-switch"><input type="checkbox" id="show-editors-picks-toggle" checked /><span class="slider"></span></label></div>
-                            </div>
-                            <div class="settings-group">
-                                <div class="setting-item"><div class="info"><span class="label">Shuffle Editor's Picks</span><span class="description">Randomize the order of editor's picks on each load</span></div><label class="toggle-switch"><input type="checkbox" id="shuffle-editors-picks-toggle" checked /><span class="slider"></span></label></div>
-                            </div>
-                            <div class="settings-group">
-                                <div class="setting-item">
-                                    <div class="info"><span class="label">Editor's Picks Source</span><span class="description">Choose which editor's picks file to display</span></div>
-                                    <select id="editors-picks-source-select" class="select-dropdown"><option value="current">Current</option></select>
-                                </div>
-                            </div>
+                    <div class="settings-list">
+                        <div class="settings-group">
+                            <div class="setting-item">
+                        <div class="info">
+                 <span class="label">Show Recommended Songs</span>
+                <span class="description">Display recommended songs on the home page</span>
+                    </div>
+                    <label class="toggle-switch">
+                    <input type="checkbox" id="show-recommended-songs-toggle" checked />
+                    <span class="slider"></span>
+                    </label>
+                </div>
+        <div class="setting-item">
+            <div class="info">
+                <span class="label">Show Recommended Albums</span>
+                <span class="description">Display recommended albums on the home page</span>
+            </div>
+            <label class="toggle-switch">
+                <input type="checkbox" id="show-recommended-albums-toggle" checked />
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="setting-item">
+            <div class="info">
+                <span class="label">Show Recommended Artists</span>
+                <span class="description">Display recommended artists on the home page</span>
+            </div>
+            <label class="toggle-switch">
+                <input type="checkbox" id="show-recommended-artists-toggle" checked />
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="setting-item">
+            <div class="info">
+                <span class="label">Show Jump Back In</span>
+                <span class="description">Display recent albums, playlists, and mixes on the home page</span>
+            </div>
+            <label class="toggle-switch">
+                <input type="checkbox" id="show-jump-back-in-toggle" checked />
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+</div>
                             <div class="settings-group">
                                 <div class="setting-item"><div class="info"><span class="label">Compact Artists</span><span class="description">Show artist cards in a compact, horizontal layout</span></div><label class="toggle-switch"><input type="checkbox" id="compact-artist-toggle" /><span class="slider"></span></label></div>
                                 <div class="setting-item"><div class="info"><span class="label">Compact Albums</span><span class="description">Show album cards in a compact, horizontal layout</span></div><label class="toggle-switch"><input type="checkbox" id="compact-album-toggle" /><span class="slider"></span></label></div>
